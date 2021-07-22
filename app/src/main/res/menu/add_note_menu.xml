@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuUpload"
+        android:icon="@drawable/ic_upload"
+        android:title="@string/upload"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuAction"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuSave"
+        android:icon="@drawable/ic_save"
+        android:title="@string/save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuColor"
+        android:icon="@drawable/ic_color_lens"
+        android:title="@string/color_lens"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuMenu"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menuHide"
+                android:title="@string/hide" />
+            <item
+                android:id="@+id/menuDelete"
+                android:title="@string/delete" />
+        </menu>
+    </item>
+
+</menu>
